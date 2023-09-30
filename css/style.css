@@ -1,5 +1,25 @@
-body, header, main, footer {
+body {
+    margin: 5px;
     border: 2px red solid;
-    min-height: 50px;
-    margin: 0.5 rem
 }
+
+header {
+    border: 2px blue solid;
+    margin: 5px;
+}
+
+nav {
+    border: 2px blueviolet solid;
+    margin: 5px;
+}
+
+main {
+    border: 2px green solid;
+    margin: 5px;
+}
+
+ footer {
+    border: 2px black solid;
+    margin: 5px;
+    text-align: center;
+} 
