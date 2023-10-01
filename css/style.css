@@ -6,6 +6,9 @@ body {
 header {
     border: 2px blue solid;
     margin: 5px;
+    font-family: 'Young Serif', serif;
+    font-size: 2rem;
+    text-align: center;
     
 }
 
@@ -24,6 +27,7 @@ main {
     border: 2px black solid;
     margin: 5px;
     text-align: center;
+    
 } 
 
 
@@ -38,6 +42,7 @@ main {
     width: 100%;
     border: 2px lightcoral solid;
     list-style-type: none;
+    padding-top: 65px;
 }
 
 #image_logobar {
@@ -48,4 +53,22 @@ main {
 
 .header_anchor_elements a {
     text-decoration: none;
+}
+
+/* footer div {
+    display: flex;
+} */
+
+.footer_anchor_icons {
+    display: flex;
+}
+
+#footer_navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#footer_navbar a {
+    margin-right: 20px;
+    
 }
