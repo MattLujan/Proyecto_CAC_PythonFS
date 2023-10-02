@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 5px;
     border: 2px red solid;
@@ -5,12 +10,17 @@ body {
 
 header {
     border: 2px blue solid;
-    margin: 5px;
     font-family: 'Young Serif', serif;
     font-size: 2rem;
     text-align: center;
-    
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
+
+    
+
 
 nav {
     border: 2px blueviolet solid;
@@ -21,6 +31,8 @@ nav {
 main {
     border: 2px green solid;
     margin: 5px;
+    font-size: 25px;
+    margin-top: 232px;
 }
 
  footer {
@@ -71,4 +83,24 @@ main {
 #footer_navbar a {
     margin-right: 20px;
     
+}
+
+/* Estilo del menú desplegable */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu li {
+    padding: 10px;
+}
+
+/* Mostrar el menú desplegable al pasar el mouse sobre el enlace "Menu" */
+#menu-dropdown:hover .dropdown-menu {
+    display: block;
 }
