@@ -19,9 +19,6 @@ header {
     left: 0;
 }
 
-    
-
-
 nav {
     border: 2px blueviolet solid;
     margin: 5px;
@@ -67,13 +64,11 @@ main {
     text-decoration: none;
 }
 
-/* footer div {
-    display: flex;
-} */
 
 .footer_anchor_icons {
     display: flex;
 }
+
 
 #footer_navbar {
     display: flex;
