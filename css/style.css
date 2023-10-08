@@ -109,12 +109,12 @@ main {
     
 }
 
-.banner_drinks {
+.banner_drinks, .banner_breakfast {
     display: flex;
     flex-wrap: wrap;
 }
 
-.banners{
+.banners, .breakfast{
     font-size: 22px;
     display: flex;
     flex: auto;
@@ -123,4 +123,14 @@ main {
     width: 45%;
     flex-direction: column;
     justify-content: center;
+}
+
+.banner_breakfast_image{
+    background-image: url(../imagenes/breakfastImage.jpg);
+    height: 480px;
+    width: 100%;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    
 }
