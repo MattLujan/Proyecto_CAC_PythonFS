@@ -32,7 +32,7 @@ nav {
 
 main {
     /* border: 2px green solid; */
-    margin: 5px;
+    /* margin: 5px; */
     font-size: 25px;
     margin-top: 100px;
 }
@@ -133,7 +133,7 @@ main {
 .banner_breakfast_image{
     background-image: url(../imagenes/breakfastImage.jpg);
     height: 480px;
-    width: 100%;
+    width: auto;
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
@@ -142,7 +142,7 @@ main {
 .banner_lunch_dinner_image{
     background-image: url(../imagenes/bannerLunchDinner.jpg);
     height: 480px;
-    width: 100%;
+    width: auto;
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
@@ -151,7 +151,7 @@ main {
 .banner_menu_image{
     background-image: url(../imagenes/bannerLunchDinner.jpg);
     height: 480px;
-    width: 100%;
+    width: auto;
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
@@ -177,3 +177,30 @@ main {
     border: 0;
     display: inline-block;
 }
+
+.banner_location_image{
+    background-image: url(../imagenes/bannerLocation.jpg);
+    height: 480px;
+    width: auto;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.location_container{
+    display: flex;
+}
+
+.l_container{
+    padding: 20px;
+    width: 100%;
+}
+
+.l_container p, ul{
+    padding: 20px;
+}
+
+/* .location_iframe{
+    margin: 0 auto;
+    width: 200px;
+} */
