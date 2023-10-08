@@ -109,12 +109,12 @@ main {
     
 }
 
-.banner_drinks, .banner_breakfast {
+.banner_drinks, .banner_breakfast, .banner_lunch_dinner {
     display: flex;
     flex-wrap: wrap;
 }
 
-.banners, .breakfast{
+.banners, .breakfast, .lunch_dinner{
     font-size: 22px;
     display: flex;
     flex: auto;
@@ -132,5 +132,13 @@ main {
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
-    
+}
+
+.banner_lunch_dinner_image{
+    background-image: url(../imagenes/bannerLunchDinner.jpg);
+    height: 480px;
+    width: 100%;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
