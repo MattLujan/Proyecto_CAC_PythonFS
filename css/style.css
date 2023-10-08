@@ -5,11 +5,11 @@
 
 body {
     margin: 5px;
-    border: 2px red solid;
+    /* border: 2px red solid; */
 }
 
 header {
-    border: 2px blue solid;
+    /* border: 2px blue solid; */
     font-family: 'Young Serif', serif;
     font-size: 2rem;
     text-align: center;
@@ -20,16 +20,21 @@ header {
 }
 
 nav {
-    border: 2px blueviolet solid;
+    /* border: 2px blueviolet solid; */
     margin: 5px;
     display: flex;
 }
 
+#header_menubar {
+    height: 95px;
+    background-color: slategrey
+}
+
 main {
-    border: 2px green solid;
+    /* border: 2px green solid; */
     margin: 5px;
     font-size: 25px;
-    margin-top: 232px;
+    margin-top: 100px;
 }
 
  footer {
@@ -49,14 +54,14 @@ main {
 
 .header_anchor_elements{
     width: 100%;
-    border: 2px lightcoral solid;
+    /* border: 2px lightcoral solid; */
     list-style-type: none;
-    padding-top: 65px;
+    padding-top: 25px;
 }
 
 #image_logobar {
-    width: 100%;
-    height: 100%;
+    width: 150px;
+    height: 95px
     
 }
 
@@ -109,12 +114,12 @@ main {
     
 }
 
-.banner_drinks, .banner_breakfast, .banner_lunch_dinner {
+.banner_drinks, .banner_breakfast, .banner_lunch_dinner, .menu_breakfast_dinner_drinks {
     display: flex;
     flex-wrap: wrap;
 }
 
-.banners, .breakfast, .lunch_dinner{
+.banners, .breakfast, .lunch_dinner, .menu{
     font-size: 22px;
     display: flex;
     flex: auto;
@@ -141,4 +146,34 @@ main {
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.banner_menu_image{
+    background-image: url(../imagenes/bannerLunchDinner.jpg);
+    height: 480px;
+    width: 100%;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#ourMenuWithYou{
+    text-align: center;
+}
+
+#ourMenuWithYou a{
+    text-decoration: none;
+}
+
+.button {
+    font-family: "Montserrat", "sans-serif";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.4px;
+    background: #333;
+    color: #fff;
+    padding: 16px 60px 12px;
+    border: 0;
+    display: inline-block;
 }
