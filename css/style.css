@@ -193,14 +193,21 @@ main {
 
 .l_container{
     padding: 20px;
-    width: 100%;
+    text-align: center;
 }
 
 .l_container p, ul{
     padding: 20px;
 }
 
-/* .location_iframe{
-    margin: 0 auto;
-    width: 200px;
-} */
+.l_container h3, .l_container p, .l_container ul {
+    text-align: left;
+}
+
+.location_iframe, .l_container{
+    width: 50%;
+}
+
+.location_iframe h3, .location_iframe p{
+    text-align: center;
+}
