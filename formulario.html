@@ -17,8 +17,8 @@
                 <li class="header_anchor_elements" id="menu-dropdown">
                     <a href="./menu.html">Menu</a>
                     <ul class="dropdown-menu">
-                        <li><a href="./menuDesayunoMerienda.html">Desayuno/Merienda</a></li>
-                        <li><a href="./menuAlmuerzoCena.html">Almuerzo/Cena</a></li>
+                        <li><a href="./menuDesayunoMerienda.html">Meriendas</a></li>
+                        <li><a href="./menuAlmuerzoCena.html">Cena</a></li>
                         <li><a href="./menuTragos.html">Tragos</a></li>
                     </ul>
                 </li>
@@ -29,27 +29,32 @@
     </header>
     <main>
         <section>
+            
             <h2 class="text-container">Formulario de Contacto</h2>
+                
             <form action="ruta.html" id="formRegister" method="post">
-                <div class="text-container">
-                    <label for="firstname">Nombre</label>
-                    <input type="text" name="firstname" id="firstname" class="text-box">
-                </div>
-                <div class="text-container">
-                    <label for="lastname">Apellido</label>
-                    <input type="text" name="lastname" id="lastname" class="text-box">
-                </div>
-                <div class="text-container">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" class="text-box">
-                </div>
-                <div class="text-container">
-                    <label for="consulta">Consulta</label>
-                    <input type="text" name="consulta" id="consulta" class="text-box">
-                </div>
-                <div class="btn-formulario">
-                    <button class="btn-formulario" type="submit">Enviar consulta</button>
-                </div>
+                <fieldset>
+                    <legend>Formulario de Contacto</legend>
+                    <div class="text-container">
+                        <label for="firstname">Nombre:</label>
+                        <input type="text" name="firstname" id="firstname" class="text-box" required autofocus>
+                    </div>
+                    <div class="text-container">
+                        <label for="lastname">Apellido:</label>
+                        <input type="text" name="lastname" id="lastname" class="text-box" required>
+                    </div>
+                    <div class="text-container">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" class="text-box" required>
+                    </div>
+                    <div class="text-container">
+                        <label for="consulta">Consulta:</label>
+                        <textarea name="consulta" id="consulta" class="text-box" placeholder="Escriba su mensaje aquí" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="btn-formulario">
+                        <button class="btn-formulario" type="submit">Enviar consulta</button>
+                    </div>
+                </fieldset>
             </form>
         </section>
     </main>
