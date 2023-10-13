@@ -127,6 +127,11 @@ main {
     padding-left: 20px;
     padding-right: 20px;
 }
+
+.menu p, .lunch_dinner p, .breakfast p, .banners p {
+    padding: 20px;
+}
+
 #ourMenuWithYou{
     text-align: center;
 }
@@ -179,17 +184,18 @@ main {
 }
 .text-container{
     margin-bottom: 1rem;
-    display: flex;
+    /* display: flex; */
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 .btn-formulario{
     font-size: 25px;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
+    padding: 10px;
 }
 .text-box{
     background-color: rgb(255, 255, 255);
@@ -214,4 +220,8 @@ l_container ul li{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.text-container {
+    padding: 10px;
 }
