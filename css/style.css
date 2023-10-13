@@ -57,7 +57,6 @@ main {
     width: 150px;
     height: 95px;
 }
-
 .header_anchor_elements a {
     text-decoration: none;
 }
@@ -200,7 +199,19 @@ main {
     width: auto;
     text-align: center;
 }
-
 l_container ul li{
     padding: 5px;
+}
+#nosotros{
+    background-color: white;
+    text-align: center;
+}
+#imagenes{
+    padding: 5px;
+}
+.imagenes{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
