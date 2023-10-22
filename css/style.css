@@ -250,7 +250,15 @@ l_container ul li{
     background-color: white;
     text-align: center;
 }
+#titulos{
+    font-size: 25px;
+}
+#tabla{
+    margin: auto;
+    text-align: left;
+}
 #imagenes{
+    max-width: 400px;
     padding: 5px;
 }
 .imagenes{
