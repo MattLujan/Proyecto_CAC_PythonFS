@@ -272,7 +272,7 @@ l_container ul li{
     padding: 10px;
 }
 
-
-    
-
- 
+#footer_copyright {
+    text-align: left;
+    margin: 10px;
+}
