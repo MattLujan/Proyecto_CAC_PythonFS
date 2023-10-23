@@ -155,11 +155,24 @@ main {
     background-image: url(../imagenes/bannerLunchDinner.jpg);
 }
 
-.banner_menu_image h1{
-    padding: 20px;
+
+.banner_contact_image {
+    background-image: url(../imagenes/contactanos.jpg);
+    background-position: center center;
 }
 
-.banner_breakfast_image, .banner_lunch_dinner_image, .banner_menu_image, .banner_location_image {
+.banner_contact_image h1 {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 72px;
+    font-family: "Montserrat", "sans-serif";
+}
+
+
+.banner_breakfast_image, .banner_lunch_dinner_image, .banner_menu_image, .banner_location_image, .banner_contact_image {
     height: 480px;
     width: auto;
     text-align: center;
