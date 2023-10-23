@@ -107,6 +107,17 @@ main {
     display: block;
 }
 
+.dropdown-menu li a {
+    color: #000; /* Color de texto por defecto */
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    transition: color 0.3s; /* Transición suave para el cambio de color */
+}
+
+.dropdown-menu li a:hover {
+    color: #f00;
+}
+    
+
 .banner_drinks_image{
     background-image: url(../imagenes/menuBackgroundImage.jpg);
     height: 480px;
@@ -199,6 +210,16 @@ main {
     padding: 0;
     display: block;
 } 
+
+#imagenes {
+    width: 100%;
+    transition: transform 0.3s;
+}
+
+#imagenes:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen al 110% al pasar el cursor sobre ella */
+}
+
 .location_container{
     display: flex;
 }
@@ -231,7 +252,7 @@ main {
     /* display: flex; */
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     padding: 10px;
 }
 .text-box{
@@ -275,4 +296,31 @@ l_container ul li{
 #footer_copyright {
     text-align: left;
     margin: 10px;
+}
+
+#banner_location_info {
+    margin: 10px;
+}
+
+#formulario_campo {
+    /* margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-right: 50%; */
+    margin: 15px auto;
+    text-align: center;
+    width: 60%;
+
+}
+
+#formulario_titulo {
+    margin: 15px;
+}
+
+#formulario_campo label {
+    vertical-align: middle;
+}
+
+.text-box {
+    vertical-align: middle;
 }

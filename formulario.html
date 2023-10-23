@@ -30,26 +30,27 @@
     <main>
         <section>
             
-            <h2 class="text-container">Formulario de Contacto</h2>
+            <h2 style="text-align: center;" class="text-container">Formulario de Contacto</h2>
                 
             <form action="ruta.html" id="formRegister" method="post">
-                <fieldset>
-                    <legend>Formulario de Contacto</legend>
+                <fieldset id="formulario_campo">
+                    <legend id="formulario_titulo">Formulario de Contacto</legend>
                     <div class="text-container">
-                        <label for="firstname">Nombre:</label>
-                        <input type="text" name="firstname" id="firstname" class="text-box" required autofocus>
+                        <label for="firstname">Nombre completo:</label>
+                        <input type="text" name="firstname" id="firstname" class="text-box" required autofocus placeholder="Ej. Juan">
                     </div>
                     <div class="text-container">
                         <label for="lastname">Apellido:</label>
-                        <input type="text" name="lastname" id="lastname" class="text-box" required>
+                        <input type="text" name="lastname" id="lastname" class="text-box" required placeholder="Ej. Pérez">
                     </div>
                     <div class="text-container">
-                        <label for="email">Email:</label>
-                        <input type="email" name="email" id="email" class="text-box" required>
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" name="email" id="email" class="text-box" required placeholder="Ej. correo@ejemplo.com">
                     </div>
                     <div class="text-container">
                         <label for="consulta">Consulta:</label><br>
-                        <textarea name="consulta" id="consulta" class="text-box" placeholder="Escriba su mensaje aquí" cols="30" rows="10"></textarea>
+                        <textarea name="consulta" id="consulta" class="text-box" placeholder="Escriba su mensaje aquí" cols="30"
+                            rows="10"></textarea>
                     </div>
                     <div class="btn-formulario">
                         <button class="btn-formulario" type="submit">Enviar consulta</button>
