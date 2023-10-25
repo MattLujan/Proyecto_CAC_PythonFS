@@ -43,7 +43,7 @@ main {
 } 
 #header_link_elements{
     display: flex;
-    /* gap: 20px; */
+    padding: 20px;
     width: 100%;
     margin:0px;
 }
