@@ -75,7 +75,7 @@ main {
 .dropdown-menu {
     display: none;
     position: absolute;
-    background-color: #fff;
+    background-color:snow;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -94,9 +94,7 @@ main {
     text-decoration: none; /* Quita el subrayado de los enlaces */
     transition: color 0.3s; /* Transición suave para el cambio de color */
 }
-.dropdown-menu li a:hover {
-    color: #f00;
-}
+
 .banner_drinks_image{
     background-image: url(../imagenes/menuBackgroundImage.jpg);
     height: 480px;
@@ -141,6 +139,11 @@ main {
     font-size: 72px;
     font-family: "Montserrat", "sans-serif";
 }
+
+.banner_menu_image h1 {
+    padding-top: 20px;
+}
+
 .banner_breakfast_image, .banner_lunch_dinner_image, .banner_menu_image, .banner_location_image, .banner_contact_image {
     height: 480px;
     width: auto;
@@ -273,6 +276,9 @@ l_container ul li{
 #banner_location_info {
     margin: 10px;
 }
+#banner_location_info p{
+    margin: 10px;
+}
 #formulario_campo {
     /* margin-top: 15px;
     margin-left: 15px;
@@ -291,3 +297,18 @@ l_container ul li{
 .text-box {
     vertical-align: middle;
 }
+
+/* Cambiar el color del texto de los elementos de menú en el encabezado */
+.header_anchor_elements a {
+    color: whitesmoke; /* Cambia el color a negro (#000) o al color que desees */
+}
+
+/* Cambiar el color al pasar el mouse por encima de los elementos de menú en el encabezado */
+.header_anchor_elements a:hover {
+    color: purple /* Cambia el color a purpura cuando se pasa el mouse por encima */
+}
+
+.dropdown-menu li a:hover {
+    color: purple;
+}
+
