@@ -7,13 +7,16 @@
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6c5ef8e3b4.js" crossorigin="anonymous"></script>
+    
     <title>Bar MamaPacha</title>
 </head>
 <body>
     <header>
         <nav id="header_menubar">
             <a href="./index.html"><img src="./imagenes/logo bar.png" id="image_logobar" alt="Logo Bar MamaPacha"></a>
-            <ul id="header_link_elements">
+            <button id="menu-button">☰</button>
+            
+            <div id="header_link_elements">
                 <li class="header_anchor_elements" id="menu-dropdown">
                     <a href="./menu.html">Menu</a>
                     <ul class="dropdown-menu">
@@ -24,9 +27,11 @@
                 </li>
                 <li class="header_anchor_elements"><a href="ubicacion.html">Ubicación</a></li>
                 <li class="header_anchor_elements"><a href="formulario.html">Contacto</a></li>
-            </ul>
+            </div>
+            <script src="./js/main.js"></script>
         </nav>
     </header>
+
     <main>
         <div class="banner_portadaWeb">
             <img src="./imagenes/PortadaWeb.jpg" alt="imagen-portada" id="imagen-portada">

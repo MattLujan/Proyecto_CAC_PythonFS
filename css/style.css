@@ -312,3 +312,25 @@ main {
     color: purple;
 }
 
+/*Estilo para el botón de menú*/
+#menu-button {
+    display: none; /* Inicialmente oculto en pantallas grandes */
+    font-size: inherit; /*Puedes ajustar el tamaño */
+ } 
+
+/* Media Query para pantallas pequeñas */
+ @media (max-width: 708px) {
+    #menu-button {
+        display: block; /*Muestra el botón en pantallas pequeñas*/
+ }
+    #header_link_elements {
+        display: none; /* Oculta el menú principal en pantallas pequeñas */
+}
+    #header_link_elements a {
+    display: inline-block;
+    margin-right: 20px; /* Espacio entre las opciones del menú */
+}
+}
+
+
+
