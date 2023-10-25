@@ -242,7 +242,7 @@ main {
     text-align: center;
     background-image: url(../imagenes/bannerLocation.jpg);
 }
-l_container ul li{
+.l_container ul li{
     padding: 5px;
 }
 #nosotros{
@@ -300,7 +300,7 @@ l_container ul li{
 
 /* Cambiar el color del texto de los elementos de menú en el encabezado */
 .header_anchor_elements a {
-    color: whitesmoke; /* Cambia el color a negro (#000) o al color que desees */
+    color: whitesmoke; 
 }
 
 /* Cambiar el color al pasar el mouse por encima de los elementos de menú en el encabezado */
