@@ -8,6 +8,8 @@ function validarFormulario() {
     alert("Por favor, complete todos los campos del formulario.");
     return false; // Esto evita que el formulario se envíe si hay campos vacíos.
   }
+  else
+    alert("Muchas gracias por tu consulta")
 
   return true; // Envía el formulario si todo está validado correctamente.
 }
