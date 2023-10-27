@@ -157,7 +157,7 @@ main {
 }
 
 #wineBanner {
-    background-image: url(../imagenes/wines.jpg);
+    background-image: url("../imagenes/wines.jpg");
     /* Otras propiedades de estilo para el banner, como ancho, alto, etc. */
 }
 
