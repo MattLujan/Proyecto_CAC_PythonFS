@@ -247,7 +247,8 @@ main {
 } 
 
 .banner_location_image h1 {
-    color: fuchsia;
+    color: #0059ff;
+    text-shadow: 2px 2px 4px #888888;
     padding: 20px;
 }
 
@@ -319,6 +320,11 @@ main {
     background-color: white;
     text-align: center;
 }
+
+#nosotros p{
+    margin: 10px;
+}
+
 
 #titulos{
     font-size: 25px;
