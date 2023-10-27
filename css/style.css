@@ -211,6 +211,11 @@ main {
     padding-right: 20px;
 }
 
+.banner_breakfast_image p{
+    color: #110101;
+    text-shadow: 2px 2px 4px #888888;
+}
+
 .menu p, .lunch_dinner p, .breakfast p, .banners p {
     padding: 20px;
 }
